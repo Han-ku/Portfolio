@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex {
+    display: flex;
+    flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex-center {
+    /* flex-direction: column; */
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-links {
+    width: 200px;
+    height: 150px;
+    background-color: cadetblue;
+    color: black;
+    margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+    justify-content: space-between;
+    padding: 2%;
+    background-color: cadetblue;
+    color: antiquewhite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#nav-options a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    background-color: indianred;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+
+.header {
+    padding: 30px;
+    background-color: black;
+}
+
+.user-photo {
+    flex: 1;
+    padding: 40px;
+}
+
+.text-yellow {
+    color: goldenrod;
+}
+.text-pink {
+    color: indianred;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.field-form {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    width: 250px;
+    margin: 5px 0;
+}
+
+#btn-msg {
+    background-color: cadetblue;
+    color: black;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+@media (max-width: 650px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    #nav-options a {
+        font-size: 0.75em;
+    }
 }
