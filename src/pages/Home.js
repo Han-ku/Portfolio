@@ -19,8 +19,15 @@ const Home = () => {
       })
   }, [])
 
+  const highlightText = (text) => {
+    const words = text.split(' ').map((word, index) => (
+      <span key={index} className="highlight">{word} </span>
+    ));
+    return <>{words}</>;
+  };
+
     return (
-        <>
+        <div className='home'>
             <div className="video-wrapper">
                 <video src={backgroundVideo} className="video-background" autoPlay loop muted/>
             </div>
@@ -34,7 +41,9 @@ const Home = () => {
                         </div>
                         ) : (
                         <>
-                            <pre>{fileContent}</pre>
+                            {fileContent.split('\n\n').map((paragraph, index) => (
+                                <pre key={index}>{highlightText(paragraph)}</pre>
+                            ))}
                             <div className='cv_container'>
                                 <a href="/about_me/CV_Kunitskaya_Hanna.pdf" target="_blank">Open my CV</a>
                                 <a href="/about_me/CV_Kunitskaya_Hanna.pdf" download>Download my CV</a>
@@ -44,7 +53,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
