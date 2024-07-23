@@ -1,5 +1,0 @@
-Hello! I am a 23-year-old junior software developer from Belarus, currently studying at the Polish-Japanese Academy of Information Technology in Warsaw. I fell in love with technology because of the passion for solving complex problems and continuous learning.
-
-I enjoy cooking and baking in my free time, trying out new recipes in the hope that one might do the trick to make my friends and family enjoy the food. I also love traveling and experiencing different cultures; it gives me a wider view of life and drives my curiosity further. Finally, I can sing, meaning that I express myself and unwind.
-
-I'm a student looking to learn and build experience in Java, JavaScript, and Kotlin. I have done multiple projects on JavaScript and Kotlin. Additionally, I would like to contribute and grow with people having innovative projects. Feel free to go through my work and connect with me for a probable collaboration or talk concerning the cool world of technology!
