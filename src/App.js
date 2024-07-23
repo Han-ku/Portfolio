@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 import Home from './pages/Home.js'
 import Projects from './pages/Projects.js'
 import Contact from './pages/Contact.js'
@@ -15,10 +15,16 @@ function App() {
           <h3>Who am I?</h3>
         </div>
         <div id="nav-options">
-          <span><Link to='/'>Home</Link></span>
-          <span><Link to='/projects'>Projects</Link></span>
-          <span><Link to='/contact'>Contact</Link></span>
-        </div>
+            <span>
+              <NavLink to="/" className={({ isActive }) => (isActive ? 'active-span' : '')} end>Home</NavLink>
+            </span>
+            <span>
+              <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active-span' : '')}>Projects</NavLink>
+            </span>
+            <span>
+              <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active-span' : '')}>Contact</NavLink>
+            </span>
+          </div>
       </nav>
 
       <Routes>
