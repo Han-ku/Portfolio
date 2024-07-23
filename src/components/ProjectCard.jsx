@@ -12,8 +12,10 @@ const ProjectCard = ({ title, imageSrc, description, link }) => {
   return (
     <div className='p-2 project-container'>
       <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
+      <div className="project_title">
         <h3>{title}</h3>
-        <div><img src={imageSrc} alt={title} className='img-responsive' /></div>
+        <img src={imageSrc} alt={title} className='img-responsive' />
+      </div>
         <p>{isExpanded ? description : firstSentence}</p>
       </a>
       <button onClick={handleToggle}>
