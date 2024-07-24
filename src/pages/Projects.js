@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
+import backgroundVideo from '../asserts/background_video.mp4'
 
 const Projects = () => {
   const projects = [
@@ -26,7 +27,10 @@ const Projects = () => {
 
   return (
     <>
-      <h2 className='center p-2'>My Projects</h2>
+      <div className="video-wrapper">
+        <video src={backgroundVideo} className="video-background" autoPlay loop muted/>
+      </div>
+      <h1 className='center p-2' id='title_projects'>My Projects</h1>
       <div className="flex flex-center flex-column">
         {projects.map((project, index) => (
           <ProjectCard
