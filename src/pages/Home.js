@@ -34,7 +34,7 @@ const Home = () => {
             <div className="content">
                 <div className="flex header">
                     <div className="user-info">
-                        <h1>Hanna Kunitskaya</h1>
+                        <h1 className='title'>Hanna Kunitskaya</h1>
                         {loading ? (
                         <div className="loadingState">
                             <i className="fa-solid fa-gear fa-spin"></i>

@@ -30,7 +30,7 @@ const Projects = () => {
       <div className="video-wrapper">
         <video src={backgroundVideo} className="video-background" autoPlay loop muted/>
       </div>
-      <h1 className='center p-2' id='title_projects'>My Projects</h1>
+      <h1 className='center p-2 title'>My Projects</h1>
       <div className="flex flex-center flex-column">
         {projects.map((project, index) => (
           <ProjectCard

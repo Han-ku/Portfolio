@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import backgroundVideo from '../asserts/background_video.mp4'
 
 const Contact = () => {
     const [isSubmitting, setIsSubmitting] = useState(false)
     const [stateMessage, setStateMessage] = useState(null)
-    const navigate = useNavigate()
 
     const sendEmail = (event) => {
         event.preventDefault()
@@ -47,32 +46,17 @@ const Contact = () => {
         }
     }
 
-    // const handleForm = (event) => {
-    //     event.preventDefault()
-    //     let form = event.target
-    //     let formData = new FormData(form)
-    //     let formDataObj = Object.fromEntries(formData.entries())
-
-    //     // let formJson = JSON.stringify(formDataObj)
-
-    //     console.log(formDataObj)
-
-    //     if(formDataObj.name === '' || formDataObj.email === '' || formDataObj.message === '') {
-    //         alert("Name is required")
-    //     }
-    // }
 
     return (
         <>
-            {/* <div>This is the Contact's page</div>
-            <div>
-                <button onClick={() => {nav("/")}}>Go back to Home Page &rarr;</button>
-            </div> */}
+            <div className="video-wrapper">
+                <video src={backgroundVideo} className="video-background" autoPlay loop muted/>
+            </div>
 
-            <h2 className='center p-2'>Contact Me</h2>
+
+            <h1 className='center p-2 title'>Contact Me</h1>
             <div className='flex flex-center'>
-            {/* Watch the video with forms */}
-                <form onSubmit={sendEmail}>
+                <form onSubmit={sendEmail} className='form_contact'>
                     <div>
                         <input className='field-form' type="text" name="fullname" placeholder='Provide your full name..' />
                     </div>
