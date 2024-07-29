@@ -22,6 +22,16 @@ const Projects = () => {
                     It provides an interactive and educational experience, showcasing various space-related data through
                     a user-friendly React interface.`,
       link: 'https://nasa-api-react-app.netlify.app/'
+    },
+    {
+      title: 'Task-Tracker-Landing-Page',
+      imageSrc: '/about_me/landing.png',
+      description: `The Task Tracker website is a versatile tool designed to enhance productivity through efficient task management. 
+      It features a task tracker where users can add, edit, and delete tasks seamlessly. The site also incorporates a Quotes API, 
+      providing daily motivational quotes to inspire users. Additionally, the platform includes a user registration system 
+      and a comments section, both integrated with a MySQL database to ensure secure and reliable data handling. 
+      This application offers an intuitive interface, making task management and user interaction both straightforward and effective`,
+      link: 'https://task-tracker-landing-page.netlify.app'
     }
   ];
 
@@ -42,6 +52,9 @@ const Projects = () => {
           />
         ))}
       </div>
+      <p id='info'>Each project listed on this site is meticulously crafted to demonstrate my skills and expertise. 
+      The source code for all these projects can be found on my GitHub repository, providing transparency 
+      and insight into my development process.</p>
     </>
   );
 };
