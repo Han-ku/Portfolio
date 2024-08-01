@@ -1,5 +1,5 @@
 Hello! I'm Hanna, a 23-year-old software developer from Belarus, currently studying at the Polish-Japanese Academy of Information Technology in Warsaw. I am passionate about learning and solving complex problems in the tech industry. 
 
-My main focus is on JavaScript, Java, Kotlin, and C#, and I am committed to enhancing my skills in these languages. I regularly update my website with projects that showcase my development journey and demonstrate my ability to create functional and efficient software solutions. I am eager to contribute to innovative projects and collaborate with like-minded professionals. 
+My main focus is on JavaScript, C#, Java and Kotlin, and I am committed to enhancing my skills in these languages. I regularly update my website with projects that showcase my development journey and demonstrate my ability to create functional and efficient software solutions. I am eager to contribute to innovative projects and collaborate with like-minded professionals. 
 
 In my free time, I enjoy cooking and baking, exploring new recipes, and traveling to experience different cultures, which helps broaden my perspective and fuels my curiosity.
