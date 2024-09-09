@@ -32,6 +32,14 @@ const Projects = () => {
       and a comments section, both integrated with a MySQL database to ensure secure and reliable data handling. 
       This application offers an intuitive interface, making task management and user interaction both straightforward and effective`,
       link: 'https://task-tracker-landing-page.netlify.app'
+    },
+    {
+      title: 'Tic Tac Toe',
+      imageSrc: '/about_me/ttt.png',
+      description: `The "TTT R JS" website is an interactive Tic-Tac-Toe game built with JavaScript. 
+      Players can compete against each other on a virtual board by selecting their symbols (X or O) and taking turns to make moves. 
+      The site allows players to track the history of moves, and it also offers the option to reset the game and start a new round.`,
+      link: 'https://master--ttt-r-js.netlify.app/'
     }
   ];
 
