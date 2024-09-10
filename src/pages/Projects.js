@@ -40,6 +40,15 @@ const Projects = () => {
       Players can compete against each other on a virtual board by selecting their symbols (X or O) and taking turns to make moves. 
       The site allows players to track the history of moves, and it also offers the option to reset the game and start a new round.`,
       link: 'https://master--ttt-r-js.netlify.app/'
+    },
+    {
+      title: 'Calculator + Converter',
+      imageSrc: '/about_me/calc.png',
+      description: `This web application allows users to perform basic calculations and unit conversions. 
+      Developed with React, it provides a user-friendly interface where you can switch between different modes like length, 
+      temperature, and time conversions. 
+      Simply input your values, select the units, and the app will calculate and convert between selected units in real-time.`,
+      link: 'https://master--calculator-converter-react.netlify.app/converter'
     }
   ];
 
