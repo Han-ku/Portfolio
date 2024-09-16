@@ -49,6 +49,17 @@ const Projects = () => {
       temperature, and time conversions. 
       Simply input your values, select the units, and the app will calculate and convert between selected units in real-time.`,
       link: 'https://master--calculator-converter-react.netlify.app/converter'
+    },
+    {
+      title: 'User Management Table',
+      imageSrc: '/about_me/users.png',
+      description: `The User Management Table is a web application designed for managing user data dynamically. 
+      It features an interactive table that allows users to filter, search, and sort through various fields such as name, username, 
+      email, and phone. Users can input data into the filter fields located in the table headers to dynamically narrow down the dataset. 
+      The table provides real-time updates based on search queries or filter input. 
+      Additionally, a "Reset all filters" button is provided to clear all filters and restore the full dataset view. 
+      This user-friendly interface is ideal for managing large datasets with ease and efficiency.`,
+      link: 'https://master--user-management-table-ts.netlify.app/'
     }
   ];
 
